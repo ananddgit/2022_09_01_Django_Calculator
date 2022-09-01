@@ -1,0 +1,26 @@
+____________________SETUP-Django&Git____________________
+
+    1. Set-up Virtual Environment
+        - python -m venv myvenv
+        - myvenv\Scripts\activate
+        - python -m pip install --upgrade pip
+
+    2. Create a Document - requirements.txt
+        - list out project requirements
+        - python -m pip install -r requirements.txt
+
+    3. Create Project Folder
+        - django-admin startproject project .
+        - [project - project Name]
+
+    4. Git - SetUP
+        - add git-ignore file
+        - git init
+	    - git status
+	    - git config user.name "ajmalrashadmarkz"
+	    - git config user.email "ajmalrashadmarkz@gmail.com"
+	    - git add .
+	    - git commit -m "Hand Book for reference"
+	    - git remote add origin https://github.com/ajmalrashadmarkz/09_22_Django_Calculator.git
+	    - git push -u origin master
+
