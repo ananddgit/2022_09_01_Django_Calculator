@@ -27,7 +27,7 @@ django-admin startproject mysite .
 	git checkout -b 01_setup_model
 
 
-____________________Django-Setup____________________
+
 
 3.Changing settings
 	TIME_ZONE = 'Asia/Calcutta'

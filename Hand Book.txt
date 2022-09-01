@@ -24,3 +24,35 @@ ____________________SETUP-Django&Git____________________
 	    - git remote add origin https://github.com/ajmalrashadmarkz/09_22_Django_Calculator.git
 	    - git push -u origin master
 
+
+____________________Django-Setup____________________
+
+    5. project -> settings.py
+        - TIME_ZONE = 'Asia/Calcutta'
+	    - LANGUAGE_CODE = 'en-us'
+	    - ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
+
+	6. DB-Setup
+	    - create a database
+	        python manage.py migrate
+
+	7. Run the web server
+	    - python manage.py runserver 9000
+
+
+
+____________________Django models____________________
+
+    8. Objects
+
+        8.1 Creating an application
+            - python manage.py startapp calculator
+
+        8.2 Add application in project -> settings -> INSTALLED_APPS
+            INSTALLED_APPS = [
+                'calculator',
+            ]
+
+        8.3 Creating a calculator post model
+            - 
+
