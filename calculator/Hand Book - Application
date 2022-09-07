@@ -2,4 +2,43 @@ ____________________ Models for Application ____________________
 
     - No need model class for App
 
-    
+____________________ Data Base Migrations  ____________________
+
+    - Migration using python manage.py
+    - Create a superuser
+
+____________________ SetUp the forms  ____________________
+
+    - import forms from django
+    - Create a Class
+        - Create fields
+
+____________________ SetUp the view  ____________________
+
+    - Template view
+    - form fetching
+    - class declaretion
+    - template view setup
+    -
+____________________ Url Redirection  ____________________
+
+    - Project folder
+        - include
+        - path
+    - App
+        - Create urls.py
+            - import views
+            -
+
+____________________ Set-UP Templates  ____________________
+
+    - Create directory
+        - templates
+        - Create Directory
+            - templatesviews
+            - Create new html file
+                - home.html
+        - static
+        - base.html
+
+

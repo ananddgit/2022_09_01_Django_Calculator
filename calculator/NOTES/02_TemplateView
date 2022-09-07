@@ -1,0 +1,15 @@
+____________________ Django - TemplateView ____________________
+
+    - https://www.geeksforgeeks.org/templateview-class-based-generic-view-django/
+
+    - Renders a given template
+        - Context containing parameters captured in the URL
+    - Used when you want to present some information on an HTML page
+
+    - Shouldn’t be used when your page has forms and does creation or update of objects
+
+    - TemplateView is most suitable
+        - Static and hardly need any context
+        - Showing pages that work with GET requests and don’t have forms in them
+
+    -
