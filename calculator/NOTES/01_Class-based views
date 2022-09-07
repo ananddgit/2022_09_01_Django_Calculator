@@ -1,0 +1,14 @@
+____________________ Django-Class Based View ____________________
+
+    - Takes a request and returns a response
+    - More than just a function
+    - Example of some classes which can be used as views
+    - Allow - structure your views and reuse code
+    - Alternative way to implement views
+    - Organization of code related to specific HTTP methods (GET, POST, etc.)
+    - HttpRequest and expected back an HttpResponse.
+
+
+____________________ django.views.generic ____________________
+
+

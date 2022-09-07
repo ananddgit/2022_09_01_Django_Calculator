@@ -81,7 +81,7 @@ ____________________Django Admin____________________
 
 9. URL - redirection [Application]
     9.1 Create a new empty file named urls.py in the ___________ directory
-    9.2  importing Djago function [path] and [views] from the application
+    9.2  importing Django function [path] and [views] from the application
 
 10. Django views
     10.1 created a function (def) called ________ that takes request and will return the value it gets from calling
